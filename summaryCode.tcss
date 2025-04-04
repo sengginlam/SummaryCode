@@ -1,0 +1,124 @@
+#app-grid {
+    layout: grid;
+    grid-size: 3 7;
+    grid-columns: 15% 70% 15%;
+}
+
+#left-top {
+    width: 100%;
+    height: 100%;
+    row-span: 1;
+    column-span: 1;
+    padding: 1;
+    background: #6A9E6F; /* Muted green */
+}
+
+#middle-top {
+    height: 100%;
+    width: 100%;
+    column-span: 1;
+    row-span: 1;
+    layout: grid;
+    grid-size: 2 2;
+    background: #5A8CA5; /* Muted blue */
+    padding: 1;
+}
+
+#path {
+    column-span: 2;
+    row-span: 2;
+    height: 100%;
+    width: 100%;
+    border: #D9A066; /* Muted orange */
+}
+
+#right-top {
+    width: 100%;
+    height: 100%;
+    row-span: 1;
+    column-span: 1;
+    layout: grid;
+    grid-size: 2 2;
+    background: #5A8CA5; /* Muted blue */
+}
+
+#summary {
+    height: 100%;
+    width: 100%;
+    background: #6A9E6F; /* Muted green */
+    row-span: 2;
+    column-span: 2;
+    padding: 1;
+}
+
+#left-buttom {
+    width: 100%;
+    height: 100%;
+    row-span: 6;
+    column-span: 2;
+    background: #4F5D6A; /* Muted blue-grey */
+}
+
+#left-buttom > RichLog {
+    background: #5A8CA5; /* Muted blue */
+    color: #E0E0E0; /* Light grey for readability */
+    margin-bottom: 1;
+    border: #6A9E6F; /* Muted green */
+}
+
+#right-bottom {
+    background: #6A9E6F; /* Muted green */
+    height: 100%;
+    width: 100%;
+    row-span: 6;
+    column-span: 1;
+}
+
+#model {
+    display: block;
+    background: #4F5D6A; /* Muted blue-grey */
+    height: 8%;
+    width: 100%;
+}
+
+#api-key {
+    display: block;
+    background: #4F5D6A; /* Muted blue-grey */
+    height: 8%;
+    width: 100%;
+}
+
+#baseUrl {
+    display: block;
+    background: #4F5D6A; /* Muted blue-grey */
+    height: 8%;
+    width: 100%;
+}
+
+#type {
+    display: block;
+    background: #4F5D6A; /* Muted blue-grey */
+    height: 8%;
+    width: 100%;
+}
+
+#label {
+    background: #4F5D6A; /* Muted blue-grey */
+    width: 100%;
+    margin-left: 1;
+    margin-right: 1;
+}
+
+#description {
+    background: #4F5D6A; /* Muted blue-grey */
+    height: 50%;
+    width: 100%;
+}
+
+#descriptionSubmit {
+    background: #6A9E6F; /* Muted green */
+    border: heavy #4F5D6A; /* Muted blue-grey */
+    display: block;
+    margin-left: 5;
+    margin-right: 5;
+}
