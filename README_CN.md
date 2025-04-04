@@ -12,7 +12,7 @@ SummaryCode 是一个基于 Python 的工具，用于使用 LLM 总结代码片�
 
 ## 使用方法
 
-0. 你的api需要兼容OpenAi
+0. 你的api需要兼容OpenAI
 
 1. 设置环境变量（可选）
    - `SUMMARYCODE_API_KEY`=your_api_key
