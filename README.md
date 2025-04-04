@@ -12,7 +12,7 @@ SummaryCode is a Python-based tool designed to summarize code snippets using a L
 
 ## Usage
 
-0. your api should compatible with OpenAi
+0. your api should compatible with OpenAI
 
 1. set environment variable (optional)
    - `SUMMARYCODE_API_KEY`=your_api_key
