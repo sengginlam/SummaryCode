@@ -16,7 +16,7 @@ from terminalFontSizeManager import TerminalFontSizeManager
 
 INIT_TEXT_0 = \
 '''
-The api used should compatible with OpenAi
+The api used should compatible with OpenAI
 **NEEDED: model. default: 'qwen-long'**
 **NEEDED: api key. auto load from env var `SUMMARYCODE_API_KEY`**
 **NEEDED: api address. auto load from env var `SUMMARYCODE_API_ADDRESS`**
