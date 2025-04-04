@@ -1,5 +1,7 @@
 # SummaryCode
 
+[English](README.md)
+
 README_CN.md 几乎由 AI 生成。
 
 SummaryCode 是一个基于 Python 的工具，用于使用 LLM 总结代码片段。
