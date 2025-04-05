@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-README_CN.md 几乎由 AI 生成。
+README.zh.md 几乎由 AI 生成。
 
 SummaryCode 是一个基于 Python 的工具，用于使用 LLM 总结代码片段。
 
@@ -10,7 +10,6 @@ SummaryCode 是一个基于 Python 的工具，用于使用 LLM 总结代码片�
 
 1. [textual](https://textual.textualize.io/getting_started/)
 2. [langchain](https://python.langchain.com/docs/how_to/installation/)
-3. [pydantic](https://docs.pydantic.dev/latest/install/)
 
 ## 使用方法
 
@@ -23,18 +22,8 @@ SummaryCode 是一个基于 Python 的工具，用于使用 LLM 总结代码片�
 2. 运行
    - Windows:
 
-        双击summaryCode.exe
-
-    &emsp;&emsp;&emsp;或者
-
    ```shell
    python -m summaryCode [display-font-size]
-   ```
-
-    &emsp;&emsp;&emsp;或者
-
-   ```shell
-   summaryCode.exe [display-font-size]
    ```
 
    - 其他平台（需要覆盖 `terminalFontSizeManager.TerminalFontSizeManager._setTerminalFontSize` 和 `terminalFontSizeManager.TerminalFontSizeManager._resetTerminalFontSize` 以支持display-font-size）：
