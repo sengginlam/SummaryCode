@@ -26,7 +26,7 @@ SummaryCode 是一个基于 Python 的工具，用于使用 LLM 总结代码片�
    python -m summaryCode [display-font-size]
    ```
 
-   - 其他平台（需要覆盖 `terminalFontSizeManager.TerminalFontSizeManager._setTerminalFontSize` 和 `terminalFontSizeManager.TerminalFontSizeManager._resetTerminalFontSize` 以支持display-font-size）：
+   - 其他平台（需要覆盖 `terminalFontSizeManager` 以支持display-font-size）：
 
    ```shell
    python -m summaryCode
