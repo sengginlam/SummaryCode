@@ -10,7 +10,6 @@ SummaryCode is a Python-based tool designed to summarize code snippets using a L
 
 1. [textual](https://textual.textualize.io/getting_started/)
 2. [langchain](https://python.langchain.com/docs/how_to/installation/)
-3. [pydantic](https://docs.pydantic.dev/latest/install/)
 
 ## Usage
 
@@ -23,18 +22,8 @@ SummaryCode is a Python-based tool designed to summarize code snippets using a L
 3. run UI
    - Windows:
 
-        double click summaryCode.exe
-
-    &emsp;&emsp;&emsp;or
-
    ```shell
    python -m summaryCode [display-font-size]
-   ```
-
-    &emsp;&emsp;&emsp;or
-
-   ```shell
-   summaryCode.exe [display-font-size]
    ```
 
    - Others (override `terminalFontSizeManager.TerminalFontSizeManager._setTerminalFontSize` and `terminalFontSizeManager.TerminalFontSizeManager._resetTerminalFontSize` for your platform to support display-font-size):
