@@ -26,7 +26,7 @@ SummaryCode is a Python-based tool designed to summarize code snippets using a L
    python -m summaryCode [display-font-size]
    ```
 
-   - Others (override `terminalFontSizeManager.TerminalFontSizeManager._setTerminalFontSize` and `terminalFontSizeManager.TerminalFontSizeManager._resetTerminalFontSize` for your platform to support display-font-size):
+   - Others (override `terminalFontSizeManager` for your platform to support display-font-size):
 
    ```shell
    python -m summaryCode
